@@ -1,0 +1,54 @@
+.banner .swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+.banner .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff971d;
+    padding-bottom: 95%;
+    padding-left: 3%;
+    text-shadow: 2px 2px #494949;
+  }
+  
+  .banner .swiper-slide:nth-child(1n) {
+    background-image: url("src/assets/cards/perro.jpg");
+  }
+  
+  .banner .swiper-slide:nth-child(2n) {
+    background-image: url("src/assets/cards/cat.jpg");
+  }
+  
+  .banner .swiper-slide:nth-child(3n) {
+    background-image: url("src/assets/cards/rabbit.png");
+  }
+  
+  .banner .swiper-slide:nth-child(4n) {
+    background-image: url("src/assets/cards/hamster.jpg");
+  }
+  
+  .banner .swiper-slide:nth-child(5n) {
+    background-image: url("src/assets/cards/turt.png");
+  }
+  
+  .banner .swiper-slide:nth-child(6n) {
+    background-image: url("src/assets/cards/fish.jpg");
+  }
+  
+.banner .swiper-slide:nth-child(7n) {
+    background-image: url("src/assets/cards/bird.jpg");
+  }
+  
+  .banner .swiper-slide:nth-child(8n) {
+    background-image: url("src/assets/cards/cham.png");
+  }
+  
+  .banner .swiper-slide:nth-child(9n) {
+    background-image: url("src/assets/cards/squ.png");
+  }
+  
