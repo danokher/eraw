@@ -60,13 +60,7 @@ const Login = () => {
                 </div>
 
                 <hr /> 
-                <div className='flex w-full items-center flex-col mt-5 gap-3 hover:text-blue-700'>
-                    <button onClick={handleLogIn} className='block'><img 
-                    src='https://upload.wikimedia.org/wikipedia/commons/5/53/Google_"G"_Logo.svg' 
-                    alt="image of the google logotype"
-                    className='w-12 h-12 inline-block' 
-                    />Login with Google</button>
-                </div>
+
             </div>
         </div>
     </div>
