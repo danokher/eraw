@@ -21,7 +21,7 @@ const UploadProduct = () => {
     }
 
     // send data to the database
-    fetch("http://localhost:5000/upload-toy"  ,{
+    fetch("https://eraw-back.vercel.app/upload-toy"  ,{
       method: "POST",
       headers: {
         "Content-Type": "application/json",
