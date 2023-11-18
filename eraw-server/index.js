@@ -10,6 +10,13 @@ app.use(cors({
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // include credentials in CORS request (if needed)
 }));
+// Middleware adicional para agregar encabezados CORS
+app.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', 'https://eraw-front2.vercel.app');
+  res.header('Access-Control-Allow-Methods', 'GET,HEAD,PUT,PATCH,POST,DELETE');
+  res.header('Access-Control-Allow-Credentials', true);
+  next();
+});
 app.use(express.json());
 
 app.get('/', (req, res) => {
