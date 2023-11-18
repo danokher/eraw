@@ -60,12 +60,12 @@ async function run() {
       res.send(result);
     })
 
-    /* get all the toys from the database
+     get all the toys from the database
     app.get("/all-toys", async(req, res) => {
       const toys = await toysAn.find();
       const result = await toys.toArray();
       res.send(result);
-    })                                      */
+    })                                      
 
     // update a book data by id metodo        Patch 
     app.patch("/toy/:id", async(req, res) => {
@@ -90,16 +90,6 @@ async function run() {
       const id = req.params.id;
       const filter = {_id: new ObjectId(id)};
       const result = await toysAn.deleteOne(filter);
-      res.send(result);
-    })
-
-    // find by category
-    app.get("/all-toys", async(req, res) => {
-      let query = {};
-      if(req.query?.animal){
-        query = {animal: req.query.animal}
-      }
-      const result = await toysAn.find(query).toArray();
       res.send(result);
     })
 
