@@ -6,7 +6,7 @@ const cors = require('cors')
 
 // middleware will be the connection to the frontend
 app.use(cors({
-  origin: 'https://eraw-front2.vercel.app', // replace with your frontend domain
+  origin: '*', // replace with your frontend domain
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // include credentials in CORS request (if needed)
 }));
