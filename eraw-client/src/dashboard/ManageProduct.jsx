@@ -11,7 +11,7 @@ const ManageProduct = () =>{
   // delete a product
   const handleDelete = (id) =>{
     
-    fetch(`http://localhost:5000/toy/${id}`, {
+    fetch(`https://eraw-back.vercel.app/toy/${id}`, {
       method: "DELETE",      
     }).then(res => res.json()).then(data => {
       alert("Product deleted")
