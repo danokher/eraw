@@ -5,7 +5,11 @@ const port = process.env.PORT || 5000;
 const cors = require('cors')
 
 // middleware will be the connection to the frontend
-app.use(cors());
+app.use(cors({
+  origin: 'https://eraw-front2.vercel.app', // replace with your frontend domain
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true, // include credentials in CORS request (if needed)
+}));
 app.use(express.json());
 
 app.get('/', (req, res) => {
