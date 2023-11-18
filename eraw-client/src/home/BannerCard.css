@@ -17,38 +17,38 @@
   }
   
   .banner .swiper-slide:nth-child(1n) {
-    background-image: url("src/assets/cards/perro.jpg");
+    background-image: url("https://eraw-front2.vercel.app/assets/cards/perro.jpg");
   }
   
   .banner .swiper-slide:nth-child(2n) {
-    background-image: url("src/assets/cards/cat.jpg");
+    background-image: url("https://eraw-front2.vercel.app/assets/cards/cat.jpg");
   }
   
   .banner .swiper-slide:nth-child(3n) {
-    background-image: url("src/assets/cards/rabbit.png");
+    background-image: url("https://eraw-front2.vercel.app/assets/cards/rabbit.png");
   }
   
   .banner .swiper-slide:nth-child(4n) {
-    background-image: url("src/assets/cards/hamster.jpg");
+    background-image: url("https://eraw-front2.vercel.app/assets/cards/hamster.jpg");
   }
   
   .banner .swiper-slide:nth-child(5n) {
-    background-image: url("src/assets/cards/turt.png");
+    background-image: url("https://eraw-front2.vercel.app/assets/cards/turt.png");
   }
   
   .banner .swiper-slide:nth-child(6n) {
-    background-image: url("src/assets/cards/fish.jpg");
+    background-image: url("https://eraw-front2.vercel.app/assets/cards/fish.jpg");
   }
   
 .banner .swiper-slide:nth-child(7n) {
-    background-image: url("src/assets/cards/bird.jpg");
+    background-image: url("https://eraw-front2.vercel.app/assets/cards/bird.jpg");
   }
   
   .banner .swiper-slide:nth-child(8n) {
-    background-image: url("src/assets/cards/cham.png");
+    background-image: url("https://eraw-front2.vercel.app/assets/cards/cham.png");
   }
   
   .banner .swiper-slide:nth-child(9n) {
-    background-image: url("src/assets/cards/squ.png");
+    background-image: url("https://eraw-front2.vercel.app/assets/cards/squ.png");
   }
   
