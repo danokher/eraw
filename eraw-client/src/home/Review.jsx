@@ -170,7 +170,7 @@ const Review = () => {
 
                 {/* text */}
                 <div className='mt-7'>
-                    <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam expedita modi pariatur dicta! Voluptates
+                    <p className='mb-5'>Lorem ipsum ipsum dolor sit amet consectetur adipisicing elit. Numquam expedita modi pariatur dicta! Voluptates
                          inventore consequatur ea culpa voluptatem est iure dolorum esse et nisi! Delectus assumenda soluta sunt autem.</p>
                     <Avatar
                     alt='avatar of Jese' 
