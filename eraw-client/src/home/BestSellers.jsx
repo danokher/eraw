@@ -5,7 +5,7 @@ const BestSellers = () => {
     const [product, setProducts] = useState([]);
 
     useEffect( () => {
-        fetch("/all-toys")
+        fetch("https://eraw-back.vercel.app/all-toys")
         .then(res => res.json())
         .then(data => setProducts(data.slice(0, 8)))
     }, []) 
