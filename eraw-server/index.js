@@ -5,18 +5,7 @@ const port = process.env.PORT || 5000;
 const cors = require('cors')
 
 // middleware will be the connection to the frontend
-app.use(cors({
-  origin: '*', // replace with your frontend domain
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true, // include credentials in CORS request (if needed)
-}));
-// Middleware adicional para agregar encabezados CORS
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'https://eraw-front2.vercel.app');
-  res.header('Access-Control-Allow-Methods', 'GET,HEAD,PUT,PATCH,POST,DELETE');
-  res.header('Access-Control-Allow-Credentials', true);
-  next();
-});
+app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
