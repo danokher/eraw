@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ManageProduct = () =>{
   const [allProducts, setAllProducts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/all-toys").then(res => res.json()).then(data => setAllProducts(data));
+    fetch("https://eraw-back.vercel.app/all-toys").then(res => res.json()).then(data => setAllProducts(data));
   },[])
 
   // delete a product
