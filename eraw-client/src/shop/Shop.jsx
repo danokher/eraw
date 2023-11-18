@@ -5,7 +5,7 @@ function Shop() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://eraw-back.vercel.app/all-toys")
+    fetch("/all-toys")
     .then(res => res.json())
     .then(data => setProducts(data));
   },[])
