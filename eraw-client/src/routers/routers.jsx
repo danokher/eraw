@@ -69,7 +69,7 @@ import Logout from "../components/Logout";
         {
           path: "/admin/dashboard/edit-products/:id",
           element: <EditProduct/>,
-          loader: ({params}) => fetch(`http://localhost:5000/toys/${params.id}`)
+          loader: ({params}) => fetch(`https://eraw-back.vercel.app/toys/${params.id}`)
         },
 
       ]
