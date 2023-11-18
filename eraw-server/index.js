@@ -60,7 +60,7 @@ async function run() {
       res.send(result);
     })
 
-     get all the toys from the database
+     //get all the toys from the database
     app.get("/all-toys", async(req, res) => {
       const toys = await toysAn.find();
       const result = await toys.toArray();
